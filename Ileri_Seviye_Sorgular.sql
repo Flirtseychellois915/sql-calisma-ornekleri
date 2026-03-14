@@ -1,7 +1,7 @@
 /* ============================================================
 ADVANCED SQL EXAMPLES - NORTHWIND DATABASE
 =============================================================
-This file contains advanced T-SQL examples on database automation and reporting.
+This file contains advanced T-SQL examples on database automation and reporting..
 
 */
 
